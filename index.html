@@ -170,6 +170,11 @@
         </div>
     </div>
     <script>
+        changeRootFont();
+        function changeRootFont() {
+            document.documentElement.style.fontSize=((window.innerWidth / 750) * 100) + 'px';
+        }
+        window.addEventListener('resize', changeRootFont, false);
         var height=document.getElementsByClassName('main')[0].offsetHeight;
         document.getElementsByClassName('sidebar')[0].style.height=height+"px";
     </script>

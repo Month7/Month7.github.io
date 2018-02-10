@@ -49,6 +49,10 @@ h2{
 h3,h4{
     font-weight: bold;
 }
+h4{
+    line-height: 30px;
+    font-size: 18px;
+}
 h3{
     color: #748aab;
     font-size: 19px;
@@ -105,10 +109,7 @@ h3{
     border-radius: 100%;
     background: #29B6F6;
     float: left;
-    /* position: absolute; */
     margin-left: -8px;
-    /* left :-28px;
-    top: 5px; */
 }
 .experice{
     border-left: 2px solid #29B6F6;
@@ -128,4 +129,12 @@ h3{
     margin-left: 7px;
     text-decoration: none;
     color: #f36795;
+}
+@media(max-width:768px){
+    h4{
+        font-size: 0.25rem;
+    }
+    .experice p{
+        font-size: 0.2rem;
+    }
 }
