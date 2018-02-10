@@ -8,23 +8,28 @@ li{
     list-style-type: none;
 }
 body{
+    min-width: 1080px;
     background: #eee;
     font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', '微软雅黑', 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
 }
-.resume{
-    width: 90%;
-    margin: 20px auto;
+.container{
+    width: 1060px;
+    margin: auto;
+    padding: 20px 0;
 }
 .sidebar{
     float: left;
     background: #29B6F6;
-    width: 30%;
+    width: 300px;
     padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
     color: #fff;
 }
 .main{
     float: left;
-    width: 70%;
+    width: 680px;
     background: #fff;
 }
 .title{
@@ -46,6 +51,7 @@ h3,h4{
 }
 h3{
     color: #748aab;
+    font-size: 19px;
 }
 .someRight dd{
     margin-left: 25px;
@@ -111,7 +117,7 @@ h3{
     padding-left: 10px;
 }
 .experice p{
-    font-size: 14px;
+    font-size: 15px;
     color: #6e716f;
 }
 .experice a{
