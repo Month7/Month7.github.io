@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+body{
+    background: #eee;
+    font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', '微软雅黑', 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
+}
+.resume{
+    width: 90%;
+    margin: 20px auto;
+}
+.sidebar{
+    float: left;
+    background: #29B6F6;
+    width: 30%;
+    padding: 20px;
+    color: #fff;
+}
+.main{
+    float: left;
+    width: 70%;
+    background: #fff;
+}
+.title{
+    text-align: center;
+}
+.title img{
+    width: 120px;
+    height: 120px;
+}
+h1{
+    font-size: 28px;
+    font-weight: normal;
+}
+h2{
+    font-size: 14px;
+}
+h3,h4{
+    font-weight: bold;
+}
+h3{
+    color: #748aab;
+}
+.someRight dd{
+    margin-left: 25px;
+}
+.side-info dt{
+    font-size: 18px;
+    line-height: 40px;
+}
+.side-info dd{
+    font-size: 14px;
+    line-height: 20px;
+}
+.side-info dd a{
+    font-size: 14px;
+    line-height: 20px;
+    color:#fff;
+    text-decoration: none;
+}
+.main{
+    padding: 20px;
+}
+.main-info{
+    margin-left: 20px;
+}
+.main-info dt{
+    color: #29B6F6;
+    border-bottom: 1px solid #29B6F6;
+    font-size: 24px;
+    line-height: 30px;
+}
+.main-info dd{
+    font-size: 14px;
+    color: #6e716f;
+}
+.main-info dd a{
+    font-size: 14px;
+    color: #6e716f;
+    text-decoration: none;
+}
+.main-info dd span{
+    color: black;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.important{
+    color:#f36795!important;
+}
+.circle{
+    height: 14px;
+    width: 14px;
+    border-radius: 100%;
+    background: #29B6F6;
+    float: left;
+    /* position: absolute; */
+    margin-left: -8px;
+    /* left :-28px;
+    top: 5px; */
+}
+.experice{
+    border-left: 2px solid #29B6F6;
+}
+.experice li p{
+    padding-left: 10px;
+}
+.experice p{
+    font-size: 14px;
+    color: #6e716f;
+}
+.experice a{
+    font-size: 12px;
+    border: 1px solid #f36795;
+    padding: 1px 3px;
+    border-radius: 5px;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #f36795;
+}
