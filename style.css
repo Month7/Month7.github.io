@@ -12,8 +12,9 @@ body{
     background: #eee;
     font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', '微软雅黑', 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
 }
-/* .container{
+.container{
     width: 1060px;
+    margin: auto;
     padding: 20px 0;
 }
 .sidebar{
@@ -29,8 +30,8 @@ body{
     float: left;
     width: 680px;
     background: #fff;
-} */
-.container {
+}
+/* .container {
     position: relative;
     margin: 10px auto;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
@@ -60,7 +61,7 @@ body{
     padding: 15px 20px 10000px;
     background: #fff;
     margin-bottom: -10000px;
-}
+} */
 .title{
     text-align: center;
 }
