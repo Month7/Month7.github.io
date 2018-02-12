@@ -16,19 +16,19 @@ body{
     width: 1060px;
     margin: auto;
     padding: 20px 0;
+    display: flex;
+    /* overflow: hidden; */
 }
 .sidebar{
-    float: left;
+   
     background: #29B6F6;
     width: 300px;
     padding: 20px;
     padding-top: 0;
     padding-bottom: 0;
     color: #fff;
-    height: 950px;
 }
 .main{
-    float: left;
     width: 680px;
     background: #fff;
 }
