@@ -91,7 +91,7 @@ h3,h4{
     width: 25px;
 }
 h4{
-    line-height: 30px;
+    line-height: 15px;
     font-size: 18px;
 }
 h3{
@@ -154,11 +154,14 @@ h3{
 }
 .experice{
     border-left: 2px solid #29B6F6;
+    margin-left: 10px;
+    margin-top:5px;
 }
 .experice li p{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .experice p{
+
     font-size: 15px;
     color: #6e716f;
 }
