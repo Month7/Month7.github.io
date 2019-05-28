@@ -449,6 +449,9 @@ a {
 .content-bd .item-hd .item-name {
   float: left;
 }
+.item-name{
+  font-weight: bold;
+}
 
 .content-bd .item-bd {
   margin-bottom: 5px;
