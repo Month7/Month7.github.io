@@ -58,10 +58,10 @@ elements-of-type(html5-block) {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-user-select: none;
+  /* -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;
+          user-select: none; */
 }
 
 body {
