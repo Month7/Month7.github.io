@@ -51,10 +51,6 @@ a img {
   border: none;
 }
 
-elements-of-type(html5-block) {
-  display: block;
-}
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -433,6 +429,19 @@ a {
   width: 25%;
 }
 
+.content-bd .item-hd .strong {
+  font-weight: bolder;
+}
+
+.content-bd .item-hd .title {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.content-bd .item-hd .sub-title {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 720px) {
   .content-bd .item-hd .item-time {
     width: 100%;
@@ -452,9 +461,15 @@ a {
 .item-name{
   font-weight: bold;
 }
+.item-sub-title {
+  font-weight: bolder;
+}
 
 .content-bd .item-bd {
   margin-bottom: 5px;
+}
+.item-bd .strong{
+  font-weight: bold;
 }
 
 .content-bd .item-des {
