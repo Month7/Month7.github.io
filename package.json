@@ -4,5 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "npx serve . -l 3000",
+    "build": "npm run build:clean && npm run build:copy",
+    "build:clean": "rm -rf dist",
+    "build:copy": "mkdir -p dist && cp -r index.html main.css main.js components data utils images dist/",
+    "preview": "npx serve dist -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
   }
 }

@@ -10,12 +10,7 @@ class ResumeContactItem extends HTMLElement {
 
     this.innerHTML = `
       <li>
-        <a href="${link}">
-          <span class="contact-link">${text}</span>
-          <span class="iconfont">
-            <resume-icon type="${type}"></resume-icon>
-          </span>
-        </a>
+        <span class="contact-link">${text}</span>
       </li>
     `;
   }
