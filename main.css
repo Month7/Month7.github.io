@@ -54,10 +54,6 @@ a img {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /* -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; */
 }
 
 body {
@@ -149,7 +145,7 @@ a {
 
 .content-hd {
   width: 100%;
-  padding: 30px 50px;
+  padding: 16px;
   color: #fff;
   background-color: #00b38a;
   overflow: hidden;
@@ -322,7 +318,7 @@ a {
 .content-bd {
   width: 100%;
   min-height: 200px;
-  padding: 20px 30px 50px;
+  padding: 16px;
   overflow: hidden;
 }
 
@@ -360,7 +356,7 @@ a {
 .content-bd .section-hd {
   position: relative;
   height: 32px;
-  margin: 10px auto 5px;
+  margin-bottom: 8px;
   overflow: hidden;
 }
 
