@@ -10,7 +10,14 @@ export function generateExperience(resumeData) {
     if (item.type) {
       experienceElement.setAttribute('type', item.type);
     }
-    experienceElement.setAttribute('description', JSON.stringify(item.description));
+    // 如果有部门信息，使用 departments 属性
+    if (item.departments) {
+      experienceElement.setAttribute('departments', JSON.stringify(item.departments));
+    }
+    // 如果有普通描述，使用 description 属性
+    if (item.description) {
+      experienceElement.setAttribute('description', JSON.stringify(item.description));
+    }
     container.appendChild(experienceElement);
   });
 }

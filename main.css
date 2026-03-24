@@ -369,6 +369,69 @@ a {
   list-style: square inside;
 }
 
+/* 公司名称样式 - 左侧绿色竖条 */
+.company-name {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #333;
+  padding-left: 12px;
+  border-left: 4px solid #00b38a;
+}
+
+/* 部门区块样式 */
+.department-section {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+/* 部门副标题样式 */
+.department-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed #ddd;
+  margin-bottom: 8px;
+}
+
+/* 部门名称样式 */
+.department-name {
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* 部门时间样式 */
+.department-time {
+  color: #888;
+  font-size: 12px;
+}
+
+/* 部门内容样式 */
+.department-content {
+  padding-left: 16px;
+  margin: 0;
+}
+
+.department-content li {
+  color: #555;
+  font-size: 13px;
+  margin-top: 4px;
+  list-style: square inside;
+  line-height: 1.6;
+}
+
+/* 普通工作描述样式 */
+.section-content li.work-desc {
+  color: #555;
+  font-size: 13px;
+  margin-top: 4px;
+  padding-left: 16px;
+  list-style: square inside;
+  line-height: 1.6;
+}
+
 .content-bd .section-bd .item {
   margin-bottom: 12px;
 }
