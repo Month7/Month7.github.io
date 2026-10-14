@@ -412,6 +412,7 @@ a {
 .department-content {
   padding-left: 16px;
   margin: 0;
+  word-break: break-word;
 }
 
 .department-content li {
@@ -430,6 +431,17 @@ a {
   padding-left: 16px;
   list-style: square inside;
   line-height: 1.6;
+}
+
+.work-desc-children {
+  margin: 2px 0 0;
+  padding-left: 20px;
+}
+
+.section-content .work-desc-children li.work-desc,
+.department-content .work-desc-children li.work-desc {
+  list-style: circle inside;
+  padding-left: 0;
 }
 
 .content-bd .section-bd .item {
@@ -537,7 +549,7 @@ a {
 
 .content-bd .section-content {
   text-align: justify;
-  word-break: break-all;
+  word-break: break-word;
   line-height: 22px;
 }
 

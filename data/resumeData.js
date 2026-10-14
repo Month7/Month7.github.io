@@ -4,19 +4,39 @@ export const resumeData = {
     {
       id: 'ali',
       title: "阿里巴巴集团-淘宝闪购",
-      time: "2025.07 至 至今",
+      time: "2025.07 至 2026-11（1 年 4 个月）",
       type: "全职",
-      description: [
-        "作为团队架构师，负责团队内 Code Review，把控团队代码质量，决策重大变更技术选型",
-        "负责团队内 AI 提效基建工作，包括 Skill 私有市场搭建,团队基准 Project Rule 制定等",
-        "推动团队研发范式升级，由传统开发转向 SDD （规范驱动开发）研发范式",
-        "主导团队工程化改造，包括多仓库合并、Vue 转 React，旧技术栈升级等"
-      ]
+      departments: [
+        {
+          name: "骑手作业-终端技术组",
+          time: "2026.08 至 2026.11",
+          description: [
+            "参与蜂鸟骑手 App 正向作业链路的需求开发（Mist 跨端技术栈）。"
+          ]
+        },
+        {
+          name: "物流技术部-履约调度团队",
+          time: "2025.07 至 2026.08",
+          description: [
+            "负责物流侧运营中后台开发。",
+            {
+              text: "承担团队工程架构职责：主导研发 Agent 体系建设、存量代码治理，系统性提升工程效率与质量。",
+              children: [
+                "建设团队研发 Agent：定制面向存量代码的 Vue to React Skill，推动 21 个 Vue 页面完成 React 升级；沉淀团队级 Project Rule，并开发 VSCode 插件在团队内落地。",
+                "推动历史代码问题治理与研发范式升级，通过基建和宣讲将团队从传统开发转向 SDD（规范驱动开发）。",
+              ],
+            },
+          ]
+        },
+       
+
+      ],
+     
     },
     {
       id: 'bytedance',
       title: "字节跳动",
-      time: "2020.07 至 2025.07",
+      time: "2020.07 至 2025.07（5 年）",
       type: "全职",
       departments: [
         {
@@ -24,8 +44,8 @@ export const resumeData = {
           time: "2022.11 至 至今",
           description: [
             "重构配送范围模块架构，推动双端（pc + h5）代码复用率达 70%，降低开发成本约 30%。",
-            "主导配送范围模块地图性能优化，地图平均首次渲染时间由 2.3s 减少至 1.9s，长尾用户首次渲染时间由 12s 减少至 2s",
-            "从 0 到 1 完成消息中心模块的搭建，设计容灾降级方案保障系统稳定性，保证线上消息触达率 99.5%+，",
+            "主导配送范围模块地图性能优化，地图平均首次渲染时间由 2.3s 减少至 1.9s，长尾用户首次渲染时间由 12s 减少至 2s。",
+            "从 0 到 1 完成消息中心模块的搭建，设计容灾降级方案保障系统稳定性，保证线上消息触达率 99.5%+。",
             "搭建配送商平台性能监控体系：通过埋点，定位并解决首屏加载耗时降低 30%+的核心性能瓶颈。"
           ]
         },
@@ -72,32 +92,40 @@ export const resumeData = {
       id: 'ai',
       title: "AI",
       description: [
-        "熟练使用 Vibe Coding, SDD 研发范式进行开发，能够精准拆解与描述需求，实现 AI 高效产出。",
-        "能够高效校验与优化 AI 代码，守住质量底线。",
-        "了解 AI Agent 相关生态，有过 Agent Skill, MCP Server 的开发经验。",
-        "了解 AI Agent 开发中的 reAct, RAG 等概念，有过业务 Agent 开发经验。"
+        "日常熟练使用 Qoder，Cursor 等 AI IDE 进行 Vibe Coding。",
+        "能精准拆解需求、定义问题并把控技术架构，提高 Vibe Coding 输入质量，降低 token 消耗；对生成代码做审计，定位边界遗漏和不可维护实现，并优化到可上线标准。",
+        "能把个人工作流沉淀为团队 Agent Harness（Skill / Project Rule / Sub Agent），而不是仅停留在个人熟练使用 AI IDE。",
       ]
     },
     {
       id: 'web',
-      title: "Web",
+      title: "前端基础",
       description: [
         "熟知 JS 基本语法与知识，掌握最新 JS 语法与 API。能够编写语义化，可读性强的代码。",
         "使用过主流 mvvm 前端框架，了解不同 mvvm 框架的实现原理及差异。",
         "熟悉前端框架 React.js 的使用和原理，了解并使用过 vue2。",
         "掌握网页开发、重构所需的 css 语法。",
-        "熟悉状态管理库 Mobx, zustand 的使用。",
-        "了解 HTTP 协议，了解 HTTPS 应用和原理。",
-        "了解 Node.js 基本语法，有 Node.js 项目开发经验，对服务端概念有基本了解，能够开发简单的服务端应用。"
-      ]
-    },
-    {
-      id: 'engineering',
-      title: "工程化",
-      description: [
+        "熟悉状态管理库 Mobx, zustand 的原理和使用。",
         "了解主流前端工程化方案及部分打包工具实现原理。"
       ]
     },
+    {
+      id: 'cross-end',
+      title: "跨端",
+      description: [
+   
+        "使用过 H5，小程序，lynx，Mist 等跨端技术栈进行客户端开发。",
+      ]
+    },
+    {
+      id: 'cross-end',
+      title: "全栈",
+      description: [
+        "了解 HTTP 协议，了解 HTTPS 应用和原理。",
+        "了解 Node.js 基本语法，有 Node.js 项目开发经验，对服务端概念有基本了解，能够开发简单的服务端应用。",
+      ]
+    },
+  
     {
       id: 'microfront',
       title: "微前端",
