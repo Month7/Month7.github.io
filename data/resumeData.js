@@ -46,7 +46,7 @@ export const resumeData = {
             "重构配送范围模块架构，推动双端（pc + h5）代码复用率达 70%，降低开发成本约 30%。",
             "主导配送范围模块地图性能优化，地图平均首次渲染时间由 2.3s 减少至 1.9s，长尾用户首次渲染时间由 12s 减少至 2s。",
             "从 0 到 1 完成消息中心模块的搭建，设计容灾降级方案保障系统稳定性，保证线上消息触达率 99.5%+。",
-            "搭建配送商平台性能监控体系：通过埋点，定位并解决首屏加载耗时降低 30%+的核心性能瓶颈。"
+            "搭建配送商平台性能监控体系：通过埋点定位并解决核心性能瓶颈，使首屏加载耗时降低 30%+。"
           ]
         },
         {
@@ -60,7 +60,7 @@ export const resumeData = {
           name: "轻服务（Serverless 产品）团队",
           time: "2020.07 至 2021.12",
           description: [
-            "负责轻服务'页面托管'产品能力的产品设计，技术开发（全栈）及运营维护。"
+            "负责轻服务'页面托管'产品能力的设计、技术开发（全栈）与运营维护。"
           ]
         }
       ]
@@ -72,27 +72,27 @@ export const resumeData = {
       type: "实习",
       description: []
     },
-    {
-      id: 'netease',
-      title: "网易-杭州研究院（实习）",
-      time: "2018.06 至 2018.09",
-      type: "实习",
-      description: []
-    },
-    {
-      id: 'iqiyi',
-      title: "爱奇艺（实习）",
-      time: "2018.03 至 2018.05",
-      type: "实习",
-      description: []
-    }
+    // {
+    //   id: 'netease',
+    //   title: "网易-杭州研究院（实习）",
+    //   time: "2018.06 至 2018.09",
+    //   type: "实习",
+    //   description: []
+    // },
+    // {
+    //   id: 'iqiyi',
+    //   title: "爱奇艺（实习）",
+    //   time: "2018.03 至 2018.05",
+    //   type: "实习",
+    //   description: []
+    // }
   ],
   skills: [
     {
       id: 'ai',
       title: "AI",
       description: [
-        "日常熟练使用 Qoder，Cursor 等 AI IDE 进行 Vibe Coding。",
+        "熟练使用 Qoder，Cursor 等 AI IDE 进行 Vibe Coding。",
         "能精准拆解需求、定义问题并把控技术架构，提高 Vibe Coding 输入质量，降低 token 消耗；对生成代码做审计，定位边界遗漏和不可维护实现，并优化到可上线标准。",
         "能把个人工作流沉淀为团队 Agent Harness（Skill / Project Rule / Sub Agent），而不是仅停留在个人熟练使用 AI IDE。",
       ]
@@ -110,22 +110,14 @@ export const resumeData = {
       ]
     },
     {
-      id: 'cross-end',
-      title: "跨端",
+      id: 'cross-end-fullstack',
+      title: "跨端 & 全栈",
       description: [
-   
         "使用过 H5，小程序，lynx，Mist 等跨端技术栈进行客户端开发。",
-      ]
-    },
-    {
-      id: 'cross-end',
-      title: "全栈",
-      description: [
         "了解 HTTP 协议，了解 HTTPS 应用和原理。",
-        "了解 Node.js 基本语法，有 Node.js 项目开发经验，对服务端概念有基本了解，能够开发简单的服务端应用。",
+        "了解 Node.js 基本语法，有 Node.js 项目开发经验，对服务端概念有基本了解，能够开发简单的服务端应用。"
       ]
     },
-  
     {
       id: 'microfront',
       title: "微前端",
