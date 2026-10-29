@@ -22,7 +22,7 @@ export const resumeData = {
             {
               text: "承担团队工程架构职责：主导研发 Agent 体系建设、存量代码治理，系统性提升工程效率与质量。",
               children: [
-                "建设团队研发 Agent：定制面向存量代码的 Vue to React Skill，推动 21 个 Vue 页面完成 React 升级；沉淀团队级 Project Rule，并开发 VSCode 插件在团队内落地。",
+                "建设 Vue to React 研发 Agent，推广到团队内使用，推动 21 个 Vue 页面完成 React 升级；沉淀团队级 Project Rule，并开发 VSCode 插件在团队内落地。",
                 "推动历史代码问题治理与研发范式升级，通过基建和宣讲将团队从传统开发转向 SDD（规范驱动开发）。",
               ],
             },
